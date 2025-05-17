@@ -16,9 +16,9 @@
   <header>
   <nav class="navbar navbar-expand-lg bg-primary-subtle">
     <div class="container">
-      <a class="navbar-brand titulo active" href="./index.html">
+      <a class="navbar-brand titulo active fs-3" href="./index.html">
         Pokedex
-        <i class="bi bi-infinity"></i>
+        <i class="bi bi-infinity fs-3"></i>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -26,13 +26,13 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="./pages/productos.html">Productos</a>
+            <a class="nav-link fs-5" href="./pages/productos.html">Productos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/contactos.html">Contactos</a>
+            <a class="nav-link fs-5" href="./pages/contactos.html">Contactos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/quienesSomos.html">Quienes Somos</a>
+            <a class="nav-link fs-5" href="./pages/quienesSomos.html">Quienes Somos</a>
           </li>
         </ul>
       </div>
@@ -40,7 +40,211 @@
   </nav>
 </header>
 
-    <main></main>
+
+
+    <main class="container py-4">
+    <!-- Parte de buscador lateral e inciar sesion -->
+    <div class="d-flex flex-column fixed-top bg-light shadow-sm" style="width: 4rem; top: 50%; transform: translateY(-50%); left: 10px; border-radius: 5px;">
+  <a href="#" class="d-block p-2 text-center text-decoration-none text-secondary" title="Iniciar sesión">
+    <i class="bi bi-person-circle fs-2"></i>
+    <small class="d-block">Iniciar sesión</small>
+  </a>
+  <hr class="m-0">
+  <a href="#" class="d-block p-2 text-center text-decoration-none text-secondary" title="Buscar">
+    <i class="bi bi-search fs-2"></i>
+  </a>
+</div>
+
+<!-- Parte de contenido principal -->
+<div class="container py-4 text-center">
+  <h1 class="display-4 text-primary display-4">¡Nuestras Cartas Pokedex!</h1>
+  <p class="lead display-6 text-secondary">Descubre nuestra increíble colección de Pokémon.</p>
+  <form class="d-flex justify-content-center mb-3">
+    <!-- Boton de buscador de pokemones -->
+    <input class="form-control me-2 w-50" type="search" placeholder="Buscar Pokémon" aria-label="Search">
+    <button class="btn btn-outline-info" type="submit">Buscar</button>
+  </form>
+  <hr class="my-4">
+</div>
+
+
+<!-- Incio de grillas de cartas pokemon -->
+        <div class="container">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+    <div class="col">
+        <!-- Carta 1 -->
+      <div class="card h-100">
+        <img src="./img/001.png" class="card-img-top" alt="Bulbasaur">
+        <div class="card-body text-center">
+          <h5 class="card-title">N.º 0001</h5>
+          <p class="card-text fw-bold">Bulbasaur</p>
+          <div>
+            <button class="btn btn-sm btn-success me-1 fs-5">Planta</button>
+            <button class="btn btn-sm btn-secondary fs-5">Veneno</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carta 2 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/002.png" class="card-img-top imagenes" alt="Ivysaur">
+        <div class="card-body text-center">
+          <h5 class="card-title">N.º 0002</h5>
+          <p class="card-text fw-bold fs-5">Ivysaur</p>
+          <div>
+            <button class="btn btn-sm btn-success me-1 fs-5">Planta</button>
+            <button class="btn btn-sm btn-secondary fs-5">Veneno</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carta 3 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/003.png" class="card-img-top imagenes" alt="Venusaur">
+        <div class="card-body text-center">
+          <h5 class="card-title">N.º 0003</h5>
+          <p class="card-text fw-bold fs-5">Venusaur</p>
+          <div>
+            <button class="btn btn-sm btn-success me-1 fs-5">Planta</button>
+            <button class="btn btn-sm btn-secondary fs-5">Veneno</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carta 4 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/004.png" class="card-img-top imagenes" alt="Charmander">
+        <div class="card-body text-center">
+          <h5 class="card-title">N.º 0004</h5>
+          <p class="card-text fw-bold">Charmander</p>
+          <div>
+            <button class="btn btn-sm btn-danger fs-5">Fuego</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Carta 5 -->
+ <div class="container mt-4">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/005.png" class="card-img-top" alt="Charmeleon">
+        <div class="card-body text-center">
+          <h5 class="card-title">N.º 0005</h5>
+          <p class="card-text fw-bold">Charmeleon</p>
+          <div>
+            <button class="btn btn-sm btn-danger fs-5">Fuego</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carta 6 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/006.png" class="card-img-top" alt="Charizard">
+        <div class="card-body text-center">
+          <h5 class="card-title">N.º 0006</h5>
+          <p class="card-text fw-bold">Charizard</p>
+          <div>
+            <button class="btn btn-sm btn-danger me-1 fs-5">Fuego</button>
+            <button class="btn btn-sm btn-info fs-5">Volador</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carta 7 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/007.png" class="card-img-top" alt="Squirtle">
+        <div class="card-body text-center">
+          <h5 class="card-title">N.º 0007</h5>
+          <p class="card-text fw-bold">Squirtle</p>
+          <div>
+            <button class="btn btn-sm btn-primary fs-5">Agua</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carta 8 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/008.png" class="card-img-top" alt="Wartortle">
+        <div class="card-body text-center">
+          <h5 class="card-title">N.º 0008</h5>
+          <p class="card-text fw-bold">Wartortle</p>
+          <div>
+            <button class="btn btn-sm btn-primary fs-5 fs-5">Agua</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Carta 9 -->
+ <div class="container mt-4">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/009.png" class="card-img-top" alt="Blastoise">
+        <div class="card-body text-center">
+          <h5 class="card-title">N.º 0009</h5>
+          <p class="card-text fw-bold">Blastoise</p>
+          <div>
+            <button class="btn btn-sm btn-primary fs-5">Agua</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carta 10 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/010.png" class="card-img-top" alt="Caterpie">
+        <div class="card-body text-center">
+          <h5 class="card-title">N.º 0010</h5>
+          <p class="card-text fw-bold">Caterpie</p>
+          <div>
+            <button class="btn btn-sm btn-success fs-5">Bicho</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- carta 11 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/011.png" class="card-img-top" alt="Metapod">
+        <div class="card-body text-center">
+          <h5 class="card-title">N.º 0011</h5>
+          <p class="card-text fw-bold">Metapod</p>
+          <div>
+            <button class="btn btn-sm btn-success fs-5">Bicho</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carta 12 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/012.png" class="card-img-top" alt="Butterfree">
+        <div class="card-body text-center">
+          <h5 class="card-title">N.º 0012</h5>
+          <p class="card-text fw-bold">Butterfree</p>
+          <div>
+            <button class="btn btn-sm btn-success me-1 fs-5">Bicho</button>
+            <button class="btn btn-sm btn-info fs-5">Volador</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </main>
+
         <footer class="bg-primary-subtle py-4 text-center text-dark">
         <h5 class="fs-4">seguinos en:</h5>
         <a href="./pages/error404.html" class="link-light fs-1"><i class="bi bi-instagram" style="color: black;"></i></a>
