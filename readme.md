@@ -27,7 +27,8 @@ Somos un equipo entusiasta de Pokémon, comprometido con el desarrollo de la Pok
 Hemos desarrollado una página web interactiva que presenta una colección de Pokémones en formato de tarjetas visualmente atractivas. Cada tarjeta muestra el número del Pokémon, su nombre y sus tipos elementales. Los usuarios pueden navegar a páginas individuales (algunas aún en desarrollo) para obtener más detalles sobre cada Pokémon.
 
 ### Nuestra pagina: 
-[Podex (PodexGroup)]()
+[Nuestra pagina de Pokemones](https://pokedgroup.netlify.app/)
+
 
 ## Tecnologías Utilizadas 💻🛠️:
 
